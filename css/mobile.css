@@ -1,0 +1,41 @@
+@media (max-width: 576px) {
+  .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .top-nav > a {
+    border-left: none;
+  }
+  .top-nav > a:last-child {
+    border-right: none;
+  }
+
+  .personal-info,
+  .job-info,
+  .certificate,
+  .project {
+    display: block;
+  }
+  .cer-info {
+    display: block;
+    padding: 30px 0 0 30px;
+    zoom: 80%;
+  }
+  .cer-info:nth-child(3) {
+    border-left: none;
+  }
+  .cer-info:last-child {
+    border-bottom: 2px solid #d6c08d;
+  }
+  .hobby {
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/3;
+  }
+  .hobby-icon > i {
+    margin: 0 auto;
+  }
+  .contact {
+    zoom: 60%;
+  }
+}
